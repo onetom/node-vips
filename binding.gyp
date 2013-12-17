@@ -18,7 +18,7 @@
             ]
           }, {
             'libraries': [
-                '<!@(PKG_CONFIG_PATH="/usr/lib/pkgconfig" pkg-config --libs glib-2.0 vips-7.26 exiv2)'
+                '<!@(PKG_CONFIG_PATH="/usr/lib/pkgconfig" pkg-config --libs glib-2.0 vips exiv2)'
             ],
             'include_dirs': [
                 '/usr/include/glib-2.0',
